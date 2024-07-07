@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "datacamp-projects"
+package-mode = false
+description = "My solutions to some of the projects present in DataCamp"
+authors = ["Kutay Eroglu <eroglukut@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1"
+scikit-learn = "^1.5.1"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
